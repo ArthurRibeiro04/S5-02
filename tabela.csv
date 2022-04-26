@@ -1,0 +1,6 @@
+maxValue,str,i,if,output
+5,'',1,"str = str + `Snap, `","'Snap, '"
+5,"'Snap, '",2,"str = str + `${i}, `","'Snap, 2, '"
+5,"'Snap, 2, '",3,"str = str + `Snap, `","'Snap, 2, Snap '"
+5,"'Snap, 2, Snap '",4,"str = str + `${i}, `","'Snap, 2, Snap, 4, '"
+5,"'Snap, 2, Snap, 4, '",5,"str = str + `SnapCrackle, `","'Snap, 2, Snap, 4, SnapCrackle, '"
